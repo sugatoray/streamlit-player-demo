@@ -5,7 +5,7 @@ from streamlit_player import st_player, _SUPPORTED_EVENTS
 st.set_page_config(layout="wide")
 
 """
-# 🎬 Streamlit Player [![GitHub][github_badge]][github_link] [![PyPI version][pypi_badge]][pypi_link]
+# 🎬 Streamlit Player [![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
 [github_link]: https://github.com/okld/streamlit-player
@@ -15,8 +15,6 @@ st.set_page_config(layout="wide")
 
 ---
 """
-
-st.warning("⚠️ This component does not work yet")
 
 with st.sidebar:
     "## ⚙️ Parameters"
