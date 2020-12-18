@@ -26,8 +26,7 @@ with st.sidebar:
         "playing": st.checkbox("Playing", False),
         "loop": st.checkbox("Loop", False),
         "controls": st.checkbox("Controls", True),
-        "muted": st.checkbox("Muted", True),
-        "play_inline": st.checkbox("Play inline", False),
+        "muted": st.checkbox("Muted", False),
     }
 
     """
