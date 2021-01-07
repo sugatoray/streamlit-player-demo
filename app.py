@@ -54,20 +54,20 @@ avsources = [
     dict(stcol='c2', url="https://soundcloud.com/imaginedragons/demons", short_desc="Second URL", long_desc=None, av_id=2),
 ]
 
-# for idx, avsource in enumerate(avsources):
-#     with stcols[avsource["stcol"]]:
-#         url = st.text_input(avsource["short_desc"], avsource["url"])
-#         event = st_player(url, **options, key=avsource["av_id"])
+for idx, avsource in enumerate(avsources):
+    with stcols[avsource["stcol"]]:
+        url = st.text_input(avsource["short_desc"], avsource["url"])
+        event = st_player(url, **options, key=avsource["av_id"])
 
-with c1:
-    url = st.text_input("First URL", "https://youtu.be/CmSKVW1v0xM")
-    event = st_player(url, **options, key=1)
-    event
+# with c1:
+#     url = st.text_input("First URL", "https://youtu.be/CmSKVW1v0xM")
+#     event = st_player(url, **options, key=1)
+#     event
 
-with c2:
-    url = st.text_input("Second URL", "https://soundcloud.com/imaginedragons/demons")
-    event = st_player(url, **options, key=2)
-    event
+# with c2:
+#     url = st.text_input("Second URL", "https://soundcloud.com/imaginedragons/demons")
+#     event = st_player(url, **options, key=2)
+#     event
 
 "---"
 
