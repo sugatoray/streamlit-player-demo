@@ -95,7 +95,7 @@ avsources = avsources_df.to_dict(orient='records')
 
 _stcols_names = avsources_df.stcol.unique().tolist()
 
-_stcols_objs = st.beta_columns(len(stcols))
+_stcols_objs = st.beta_columns(len(_stcols_names))
 # c1, c2 = st.beta_columns(2)
 
 stcols = dict((k, v) for k, v in zip(_stcols_names, _stcols_objs))
