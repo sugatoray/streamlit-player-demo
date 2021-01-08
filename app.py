@@ -48,13 +48,14 @@ with st.sidebar:
     * YouTube
     """
 
-GOOGLE_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1o_Wijdc84VkeVh5c94h0qKjqZjgRTmZnY7KDqPhNLAk/edit?usp=sharing"
+_GOOGLE_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1o_Wijdc84VkeVh5c94h0qKjqZjgRTmZnY7KDqPhNLAk/edit?usp=sharing"
+    
+GOOGLE_SPREADSHEET_URL = st.text_input('Enter google spreadsheet shared link', _GOOGLE_SPREADSHEET_URL)
+
     
 # c1, c2 = st.beta_columns(2)
 
 # stcols = dict(c1=c1, c2=c2)
-
-
 
 
 def get_avdata_from_google_spreadsheet(google_spreadsheet_id: str=None, google_spreadsheet_url:str=None, sheet_name = "AVSources"):
