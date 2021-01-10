@@ -8,13 +8,13 @@ import re
 st.set_page_config(layout="wide")
 
 """
-# 🎬 Streamlit Player [![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]
+# 🎬 Streamlit Player [![GitHub][#github_badge]][#github_link] [![PyPI][#pypi_badge]][#pypi_link]
 
-[github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
-[github_link]: https://github.com/okld/streamlit-player
+[#github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
+[#github_link]: https://github.com/okld/streamlit-player
 
-[pypi_badge]: https://badgen.net/pypi/v/streamlit-player?icon=pypi&color=black&label
-[pypi_link]: https://pypi.org/project/streamlit-player
+[#pypi_badge]: https://badgen.net/pypi/v/streamlit-player?icon=pypi&color=black&label
+[#pypi_link]: https://pypi.org/project/streamlit-player
 
 ---
 """
